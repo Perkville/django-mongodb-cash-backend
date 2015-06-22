@@ -17,7 +17,7 @@ setup(
     long_description=open('README.rst').read(),
     install_requires=[
         'Django >= 1.5.3',
-        'pymongo >= 2.6.3'
+        'pymongo >= 2.6, <= 2.8'
     ],
     keywords=[
         'django',
